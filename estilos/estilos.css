@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #ede7e3;
+}
+
+.nav_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.nav_menu ul {
+    display: flex;
+    gap: 40px;
+}
+
+.nav_menu li {
+    list-style: none;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.logo {
+    width: 210px;
+    height: 100px;
+}
