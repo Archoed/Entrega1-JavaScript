@@ -69,7 +69,7 @@ while(true){
 
     let cambio= parseInt(prompt(tipoCambio));
     if(isNaN(cambio) || cambio<1 || cambio >5){
-        alert("Opción no disponible. Intenete de nuevo")
+        alert("Opción no disponible. Intente de nuevo")
         continue;
     }
 
