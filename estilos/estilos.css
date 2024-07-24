@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 .navbar {
     background-color: #ede7e3;
 }
@@ -32,4 +33,216 @@
 .logo {
     width: 210px;
     height: 100px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+#formulario {
+    flex: 1;
+    background-color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    color: #fff;
+}
+.h1_formulario{
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#container {
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px; 
+    padding: 20px;
+}
+
+#tasasdelDia {
+    flex: 1;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+#tasasdelDia li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+#tasasdelDia img {
+    margin-right: 10px;
+}
+
+#formulario h2 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#formulario .form-group {
+    display: flex;
+    flex-direction: column; 
+    margin-bottom: 15px;
+}
+
+#formulario .form-group label {
+    margin-bottom: 5px;
+    color: #fafafa;
+}
+
+#formulario .form-group select,
+#formulario input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background-color: #555; 
+    color: #fff; 
+}
+
+#formulario .btn {
+   
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+#formulario .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+#formulario .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+#formulario .btn-info {
+    background-color: #17a2b8;
+    color: #fff;
+    
+}
+
+#formulario .btn-info:hover {
+    background-color: #138496;
+}
+
+h6{
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+}
+.contenido-central{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+}
+
+
+.button-group a {
+    text-decoration: none; 
+}
+
+.button-group .btn {
+    width: auto; 
+    margin: 0 10px; 
+}
+
+#formulario_cita {
+    background-color: #636161;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    margin: 20px auto; 
+}
+
+.h1_cita{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+ label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #faf7f7;
+    
+}  
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #555; 
+    color: #fff; 
+}
+
+button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+a {
+    text-decoration: none;
+}
+
+#listadoCitas {
+    list-style-type: none;
+    padding: 0;
+}
+
+#listadoCitas li {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.error-mensaje{
+    color: red;
+    font-size: 12px;
+    display: none;
+    margin-top: 5px;
 }
