@@ -241,7 +241,7 @@ a {
 }
 
 .error-mensaje{
-    color: red;
+    color: rgb(252, 248, 248);
     font-size: 12px;
     display: none;
     margin-top: 5px;
